@@ -213,8 +213,6 @@ and scale.
       <h3><a href="https://github.com/ridaahmed15/youtube-automation-ai-agent">Youtube Automation Agent</a></h3>
       🚀 Automating the YouTube Content Pipeline with AI!
 
- I worked on an AI-powered YouTube Automation Agent designed to streamline the entire workflow end-to-end. By integrating LLMs and automated API pipelines, this system handles repetitive tasks so creators can focus purely on creativity and strategy.
-
 </p>
       <p><img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" />
          <img src="https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white" />
@@ -222,13 +220,11 @@ and scale.
     </td>
     <td width="50%" align="center">
       <img src="https://img.shields.io/badge/CV-Vision%20Pipeline-4facfe?style=for-the-badge&logo=opencv&logoColor=black" />
-      <h3><a href="https://github.com/YOUR_GITHUB_USERNAME/PROJECT_REPO_2">Repo</a></h3>
-      <p>Real-time object detection on edge devices — quantised YOLO export to
-      ONNX/TensorRT, INT8 calibration, and a streaming inference server with
-      sub-50ms latency.</p>
+      <h3><a href="https://github.com/ridaahmed15/WEATHERAPP">Weather Forecasting</a></h3>
+      <p>Real-time Weather Forecasting (Streamlit App)🌤</p>
       <p><img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" />
-         <img src="https://img.shields.io/badge/ONNX-005CDA?logoColor=white" />
-         <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white" /></p>
+         <img src="https://img.shields.io/badge/Pandas-005CDA?logo=pandas&logoColor=white" />
+         <img src="https://img.shields.io/badge/Docker-2496ED?logo=jupyternotebook&logoColor=white" /></p>
     </td>
   </tr>
   <tr>
