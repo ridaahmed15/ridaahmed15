@@ -267,8 +267,6 @@ and scale.
     <a href="https://huggingface.co/YOUR_HF_USERNAME"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-FFD21E?style=for-the-badge&logoColor=black" /></a>
     <a href="https://www.kaggle.com/YOUR_KAGGLE_HANDLE"><img src="https://img.shields.io/badge/Kaggle-Profile-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" /></a>
     
-    <a href="mailto:webdeveloper.ridaa@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20Hello-00f2fe?style=for-the-badge&logo=gmail&logoColor=white" /></a>
-    
   </p>
 </div>
 
