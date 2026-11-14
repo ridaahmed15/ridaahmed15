@@ -18,7 +18,7 @@
 
   <h1>
     <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Animated-Fluent-Emojis/master/Emojis/Hand%20gestures/Waving%20Hand.png" width="42" height="42" />
-    Hi, I'm <strong>YOUR_NAME</strong>
+    Hi, I'm <strong>Rida Ahmed!</strong>
   </h1>
 
   <!-- Animated typing role (external SVG, animates on GitHub) -->
@@ -262,19 +262,18 @@ and scale.
 
 <div align="center">
   <p>
-    <a href="https://github.com/YOUR_GITHUB_USERNAME"><img src="https://img.shields.io/badge/GitHub-YOUR_GITHUB_USERNAME-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
-    <a href="https://www.linkedin.com/in/YOUR_LINKEDIN_HANDLE/"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
+    <a href="https://github.com/ridaahmed15"><img src="https://img.shields.io/badge/GitHub-YOUR_GITHUB_USERNAME-181717?style=for-the-badge&logo=github&logoColor=white" /></a>
+    <a href="https://www.linkedin.com/in/ridaahmed-dev"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
     <a href="https://huggingface.co/YOUR_HF_USERNAME"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Models-FFD21E?style=for-the-badge&logoColor=black" /></a>
     <a href="https://www.kaggle.com/YOUR_KAGGLE_HANDLE"><img src="https://img.shields.io/badge/Kaggle-Profile-20BEFF?style=for-the-badge&logo=kaggle&logoColor=white" /></a>
-    <a href="https://x.com/YOUR_X_HANDLE"><img src="https://img.shields.io/badge/X-@YOUR_X_HANDLE-000000?style=for-the-badge&logo=x&logoColor=white" /></a>
-    <a href="mailto:YOUR_EMAIL"><img src="https://img.shields.io/badge/Email-Say%20Hello-00f2fe?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+    
+    <a href="mailto:webdeveloper.ridaa@gmail.com"><img src="https://img.shields.io/badge/Email-Say%20Hello-00f2fe?style=for-the-badge&logo=gmail&logoColor=white" /></a>
+    
   </p>
 </div>
 
 <div align="center">
 
 <img src="assets/footer.svg" alt="footer" width="60%" />
-
-<sub><i>Crafted with data, gradients & a lot of GPUs. ⚡</i></sub>
 
 </div>
