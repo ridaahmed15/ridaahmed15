@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400" role="img" aria-labelledby="rh-title rh-desc" xmlns:c2pa="http://c2pa.org/manifest">
+  <title id="rh-title">Rida Ahmed</title>
+  <desc id="rh-desc">Rida Ahmed. AI Engineering, Machine Learning and Data Science. Karachi, Pakistan.</desc>
+
+  <defs>
+    <linearGradient id="rh-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#10070C"/>
+      <stop offset="0.45" stop-color="#2A0C18"/>
+      <stop offset="1" stop-color="#451126"/>
+    </linearGradient>
+
+    <linearGradient id="rh-accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#701A3D"/>
+      <stop offset="0.5" stop-color="#C77B9B"/>
+      <stop offset="1" stop-color="#F8F0F3"/>
+    </linearGradient>
+
+    <linearGradient id="rh-flow" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#701A3D" stop-opacity="0"/>
+      <stop offset="0.35" stop-color="#C77B9B"/>
+      <stop offset="0.75" stop-color="#E9B5C8"/>
+      <stop offset="1" stop-color="#F8F0F3" stop-opacity="0.9"/>
+    </linearGradient>
+
+    <radialGradient id="rh-halo" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#701A3D" stop-opacity="0.55"/>
+      <stop offset="0.6" stop-color="#451126" stop-opacity="0.18"/>
+      <stop offset="1" stop-color="#10070C" stop-opacity="0"/>
+    </radialGradient>
+
+    <linearGradient id="rh-sweep" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#F8F0F3" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#F8F0F3" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#F8F0F3" stop-opacity="0"/>
+    </linearGradient>
+
+    <pattern id="rh-grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#C77B9B" stroke-opacity="0.09" stroke-width="1"/>
+    </pattern>
+    <pattern id="rh-grid-fine" width="8" height="8" patternUnits="userSpaceOnUse">
+      <path d="M8 0H0V8" fill="none" stroke="#C77B9B" stroke-opacity="0.035" stroke-width="0.5"/>
+    </pattern>
+
+    <filter id="rh-glow" x="-20%" y="-300%" width="140%" height="700%">
+      <feGaussianBlur stdDeviation="5" result="rh-blur"/>
+      <feMerge>
+        <feMergeNode in="rh-blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <filter id="rh-soft" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="2.2"/>
+    </filter>
+
+    <clipPath id="rh-frame">
+      <rect width="1200" height="400" rx="18"/>
+    </clipPath>
+  </defs>
+
+  <style>
+    .rh-name  { font-family: Georgia, 'Times New Roman', 'Playfair Display', serif; font-size: 92px; font-weight: 700; letter-spacing: 1px; fill: #F8F0F3; }
+    .rh-role  { font-family: ui-monospace, 'SFMono-Regular', Menlo, Consolas, 'Courier New', monospace; font-size: 20px; letter-spacing: 5px; fill: #E9B5C8; }
+    .rh-tag   { font-family: ui-monospace, 'SFMono-Regular', Menlo, Consolas, 'Courier New', monospace; font-size: 13px; letter-spacing: 4px; fill: #C77B9B; }
+    .rh-orbit { fill: none; stroke: #C77B9B; stroke-opacity: 0.45; stroke-width: 1.2; }
+    .rh-orbit-soft { fill: none; stroke: #B5B5C7; stroke-opacity: 0.0; }
+    .rh-node  { fill: #F8F0F3; }
+    .rh-sweep { opacity: 0; }
+
+    @media (prefers-reduced-motion: no-preference) {
+      .rh-spin-a { transform-origin: 940px 200px; animation: rh-rot 38s linear infinite; }
+      .rh-spin-b { transform-origin: 940px 200px; animation: rh-rot 26s linear infinite reverse; }
+      .rh-spin-c { transform-origin: 940px 200px; animation: rh-rot 60s linear infinite; }
+      .rh-flowline { stroke-dasharray: 90 1400; stroke-dashoffset: 0; animation: rh-flow 7s linear infinite; }
+      .rh-halo { transform-origin: 940px 200px; animation: rh-pulse 6s ease-in-out infinite; }
+      .rh-sweep { opacity: 1; animation: rh-sweep 5.5s ease-in-out infinite; }
+      .rh-pulse { animation: rh-blink 3.2s ease-in-out infinite; }
+    }
+
+    @keyframes rh-rot   { to { transform: rotate(360deg); } }
+    @keyframes rh-flow  { from { stroke-dashoffset: 1490; } to { stroke-dashoffset: 0; } }
+    @keyframes rh-pulse { 0%, 100% { transform: scale(1); opacity: 0.85; } 50% { transform: scale(1.12); opacity: 1; } }
+    @keyframes rh-sweep { 0% { transform: translateX(-520px); } 60%, 100% { transform: translateX(520px); } }
+    @keyframes rh-blink { 0%, 100% { opacity: 0.35; } 50% { opacity: 1; } }
+  </style>
+
+  <g clip-path="url(#rh-frame)">
+    <rect width="1200" height="400" fill="url(#rh-bg)"/>
+    <rect width="1200" height="400" fill="url(#rh-grid-fine)"/>
+    <rect width="1200" height="400" fill="url(#rh-grid)"/>
+
+    <!-- Halo behind the orbital geometry -->
+    <circle class="rh-halo" cx="940" cy="200" r="260" fill="url(#rh-halo)"/>
+
+    <!-- Orbital geometry -->
+    <g>
+      <circle cx="940" cy="200" r="150" class="rh-orbit" stroke-dasharray="2 8"/>
+      <g class="rh-spin-a">
+        <ellipse cx="940" cy="200" rx="170" ry="62" class="rh-orbit" transform="rotate(-24 940 200)"/>
+        <circle cx="1108" cy="150" r="5" class="rh-node"/>
+        <circle cx="1108" cy="150" r="11" fill="#C77B9B" fill-opacity="0.25"/>
+      </g>
+      <g class="rh-spin-b">
+        <ellipse cx="940" cy="200" rx="120" ry="120" class="rh-orbit" stroke-opacity="0.3"/>
+        <circle cx="940" cy="80" r="4" fill="#C77B9B"/>
+        <circle cx="1060" cy="200" r="3" fill="#E9B5C8"/>
+      </g>
+      <g class="rh-spin-c">
+        <ellipse cx="940" cy="200" rx="200" ry="84" class="rh-orbit" stroke-opacity="0.25" transform="rotate(38 940 200)"/>
+        <circle cx="1096" cy="252" r="3.5" fill="#B5B5C7" fill-opacity="0.8"/>
+      </g>
+      <circle cx="940" cy="200" r="30" fill="#451126" stroke="#C77B9B" stroke-opacity="0.8" stroke-width="1.4"/>
+      <circle class="rh-pulse" cx="940" cy="200" r="9" fill="#F8F0F3" filter="url(#rh-soft)"/>
+      <circle cx="940" cy="200" r="5" fill="#F8F0F3"/>
+    </g>
+
+    <!-- Network path: static base with an animated pulse travelling along it -->
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M60 330 C 200 300, 260 350, 400 318 S 620 270, 740 300 S 840 250, 900 214"
+            stroke="#C77B9B" stroke-opacity="0.35" stroke-width="1.4"/>
+      <path class="rh-flowline"
+            d="M60 330 C 200 300, 260 350, 400 318 S 620 270, 740 300 S 840 250, 900 214"
+            stroke="url(#rh-flow)" stroke-width="3" filter="url(#rh-glow)"/>
+    </g>
+    <g fill="#F8F0F3">
+      <circle cx="60" cy="330" r="3.5"/>
+      <circle cx="400" cy="318" r="3.5" fill="#C77B9B"/>
+      <circle cx="740" cy="300" r="3.5" fill="#C77B9B"/>
+      <circle cx="900" cy="214" r="3.5"/>
+    </g>
+
+    <!-- Text -->
+    <text class="rh-tag" x="80" y="92">PORTFOLIO &#160;/&#160; README</text>
+    <text class="rh-name" x="76" y="190">Rida Ahmed</text>
+
+    <!-- Glowing underline -->
+    <g filter="url(#rh-glow)">
+      <rect x="80" y="212" width="470" height="4" rx="2" fill="url(#rh-accent)"/>
+    </g>
+    <g clip-path="url(#rh-underline-clip)">
+      <rect class="rh-sweep" x="80" y="211" width="120" height="6" rx="3" fill="url(#rh-sweep)"/>
+    </g>
+    <clipPath id="rh-underline-clip"><rect x="80" y="211" width="470" height="6" rx="3"/></clipPath>
+
+    <text class="rh-role" x="80" y="262">AI ENGINEERING &#160;·&#160; ML &#160;·&#160; DATA SCIENCE</text>
+    <text class="rh-tag" x="80" y="372">KARACHI, PAKISTAN</text>
+  </g>
+
+  <rect x="0.75" y="0.75" width="1198.5" height="398.5" rx="18" fill="none" stroke="#C77B9B" stroke-opacity="0.35" stroke-width="1.5"/>
+<metadata><c2pa:manifest>AAAWgmp1bWIAAAAeanVtZGMycGEAEQAQgAAAqgA4m3EDYzJwYQAAABZcanVtYgAAAEdqdW1kYzJtYQARABCAAACqADibcQN1cm46YzJwYTo5YzNkNTA4Ni1iOTRlLTRkMjUtODA5ZC00OTNhYTViMWU4MWEAAAADl2p1bWIAAAApanVtZGMyYXMAEQAQgAAAqgA4m3EDYzJwYS5hc3NlcnRpb25zAAAAALxqdW1iAAAARGp1bWRjYm9yABEAEIAAAKoAOJtxE2MycGEuaW5ncmVkaWVudC52MwAAAAAYYzJzaJRk7/Ikje99TuAoEo5qcq0AAABwY2JvcqNpZGM6Zm9ybWF0bWltYWdlL3N2Zyt4bWxqaW5zdGFuY2VJRHgseG1wOmlpZDo4NzFkMDk4Mi1iZjdjLTQxMWItOWMwZC05MTI5NGQwYzg0YTRscmVsYXRpb25zaGlwaHBhcmVudE9mAAAB4mp1bWIAAABBanVtZGNib3IAEQAQgAAAqgA4m3ETYzJwYS5hY3Rpb25zLnYyAAAAABhjMnNoaPYMrPDUE4MjgGK1mIzSsQAAAZljYm9yomdhY3Rpb25zgqJmYWN0aW9ua2MycGEub3BlbmVkanBhcmFtZXRlcnOha2luZ3JlZGllbnRzgaJjdXJseC1zZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmluZ3JlZGllbnQudjNkaGFzaFggrnYfTalgdqrY3Pw6jVTO+HWJw1zSxSdTfN1K0qz/UyKkZmFjdGlvbngdY29tLmFudGhyb3BpYy5jbGF1ZGUucHJvdmlkZWRqcGFyYW1ldGVyc6F4H2NvbS5hbnRocm9waWMub3JpZ2luLWNvbmZpZGVuY2VndW5rbm93bmtkZXNjcmlwdGlvbnhmQ2xhdWRlIHByb3ZpZGVkIHRoaXMgZmlsZSBhdCB0aGUgcmVxdWVzdCBvZiBhIHVzZXIgYW5kIG1heSBoYXZlIGNyZWF0ZWQgb3IgbW9kaWZpZWQgdGhlIGZpbGUgY29udGVudHMubXNvZnR3YXJlQWdlbnShZG5hbWVmQ2xhdWRlcmFsbEFjdGlvbnNJbmNsdWRlZPUAAADIanVtYgAAAEBqdW1kY2JvcgARABCAAACqADibcRNjMnBhLmhhc2guZGF0YQAAAAAYYzJzaOB0gfopJJWKSaQfsHmvzSQAAACAY2JvcqVjYWxnZnNoYTI1NmNwYWRMAAAAAAAAAAAAAAAAZGhhc2hYIGMmndMF/fZhW/BnFwsncHzxAz1UXdT3/46Y0+xtsCBaZG5hbWVuanVtYmYgbWFuaWZlc3RqZXhjbHVzaW9uc4GiZXN0YXJ0GR2JZmxlbmd0aBkeBAAAAj5qdW1iAAAAJ2p1bWRjMmNsABEAEIAAAKoAOJtxA2MycGEuY2xhaW0udjIAAAACD2Nib3KlY2FsZ2ZzaGEyNTZpc2lnbmF0dXJleE1zZWxmI2p1bWJmPS9jMnBhL3VybjpjMnBhOjljM2Q1MDg2LWI5NGUtNGQyNS04MDlkLTQ5M2FhNWIxZTgxYS9jMnBhLnNpZ25hdHVyZWppbnN0YW5jZUlEeCx4bXA6aWlkOjJjMTcwYWE3LTJjNWItNGUwYi05NDBiLTUwYWRjMTM0ZjdkNXJjcmVhdGVkX2Fzc2VydGlvbnODomN1cmx4LXNlbGYjanVtYmY9YzJwYS5hc3NlcnRpb25zL2MycGEuaW5ncmVkaWVudC52M2RoYXNoWCCudh9NqWB2qtjc/DqNVM74dYnDXNLFJ1N83UrSrP9TIqJjdXJseCpzZWxmI2p1bWJmPWMycGEuYXNzZXJ0aW9ucy9jMnBhLmFjdGlvbnMudjJkaGFzaFggiKIuxJHElVDcHRe/2jpZsrwnunuckIreDFhDIecIpKuiY3VybHgpc2VsZiNqdW1iZj1jMnBhLmFzc2VydGlvbnMvYzJwYS5oYXNoLmRhdGFkaGFzaFgg5OBifiXxCQ3wLpRNy/inPRz9aUs1NfqulpaBG0Z0DIp0Y2xhaW1fZ2VuZXJhdG9yX2luZm+jZG5hbWVvQW50aHJvcGljIEZpbGVzZ3ZlcnNpb25lMS4wLjBrc3BlY1ZlcnNpb25lMi40LjAAABA4anVtYgAAAChqdW1kYzJjcwARABCAAACqADibcQNjMnBhLnNpZ25hdHVyZQAAABAIY2JvctKEWQISogEmGCFZAgowggIGMIIBjaADAgECAhRA5aAK7sI50L64g/oGQgU9Z1UTADAKBggqhkjOPQQDAzBJMRcwFQYDVQQKEw5BbnRocm9waWMsIFBCQzEuMCwGA1UEAxMlQW50aHJvcGljIENvbnRlbnQgQ3JlZGVudGlhbHMgUm9vdCBDQTAeFw0yNjA4MDcxODQzNTZaFw0yODA4MDYxOTQzNTZaMEQxFzAVBgNVBAoTDkFudGhyb3BpYywgUEJDMSkwJwYDVQQDEyBBbnRocm9waWMgQ2xhdWRlIENvbnRlbnQgU2lnbmluZzBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABJh6CmvLUBgFFNU0vUKlOVtE6djd17L5SuwX0LemFisBM3dkd/3cyjxFA3Qo5S46fX0/ihY0VZ7mfb9KF703t5OjWDBWMA4GA1UdDwEB/wQEAwIHgDAVBgNVHSUEDjAMBgorBgEEAYPoXgIBMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUzlHiBIFOZFsj+OPEz5o+nMHXXMIwCgYIKoZIzj0EAwMDZwAwZAIwMXMdFJ4BetLLVY7ORuE9noqbbAZOZn/aArXyTwFAZfKrPzxF2vPoJNf1+UCdg1XGAjBwX1zd9WGqYkqmL5SFqw1QySjr1zJfpJM9+1rdDwSPLMOPOjKuiXjoU/pUUeG9RwmhY3BhZFkNngAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPZYQJNYKESO8Ze2Q4Hl9U6IC95Lb6hGMlOmqNTELIc78KpGuFKbmvCsC7TzPdUYYR07Y4S3MjE8ljPfn9WptpUXPTE=</c2pa:manifest></metadata></svg>
