@@ -1,0 +1,79 @@
+<svg width="100%" height="90" viewBox="0 0 1000 90" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0d1117" stop-opacity="0" />
+      <stop offset="20%" stop-color="#141e3c" stop-opacity="0.85" />
+      <stop offset="50%" stop-color="#1b284f" stop-opacity="0.95" />
+      <stop offset="80%" stop-color="#141e3c" stop-opacity="0.85" />
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0" />
+    </linearGradient>
+    <radialGradient id="nodeGlow">
+      <stop offset="0%" stop-color="#00f2fe" stop-opacity="1" />
+      <stop offset="50%" stop-color="#4facfe" stop-opacity="0.5" />
+      <stop offset="100%" stop-color="#7b2cbf" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <rect width="1000" height="90" rx="12" fill="url(#bgGrad)" />
+
+  <!-- Synaptic Connections -->
+  <g stroke="#4facfe" stroke-width="1.2" opacity="0.35">
+    <line x1="80" y1="25" x2="220" y2="65" />
+    <line x1="80" y1="70" x2="220" y2="25" />
+    <line x1="80" y1="25" x2="220" y2="25" />
+    <line x1="220" y1="25" x2="380" y2="45" />
+    <line x1="220" y1="65" x2="380" y2="45" />
+    <line x1="380" y1="45" x2="500" y2="20" />
+    <line x1="380" y1="45" x2="500" y2="70" />
+    <line x1="500" y1="20" x2="640" y2="45" />
+    <line x1="500" y1="70" x2="640" y2="45" />
+    <line x1="640" y1="45" x2="800" y2="25" />
+    <line x1="640" y1="45" x2="800" y2="65" />
+    <line x1="800" y1="25" x2="920" y2="45" />
+    <line x1="800" y1="65" x2="920" y2="45" />
+  </g>
+
+  <!-- Animated Signal Pulses -->
+  <circle r="3" fill="#00f2fe">
+    <animateMotion dur="3s" repeatCount="indefinite" path="M80,25 L220,65 L380,45 L500,20 L640,45 L800,65 L920,45" />
+  </circle>
+  <circle r="3" fill="#c77dff">
+    <animateMotion dur="3.5s" repeatCount="indefinite" path="M920,45 L800,25 L640,45 L500,70 L380,45 L220,25 L80,70" />
+  </circle>
+
+  <!-- Neural Nodes -->
+  <g>
+    <circle cx="80" cy="25" r="9" fill="url(#nodeGlow)"><animate attributeName="r" values="7;11;7" dur="2.2s" repeatCount="indefinite" /></circle>
+    <circle cx="80" cy="25" r="3" fill="#ffffff" />
+
+    <circle cx="80" cy="70" r="8" fill="url(#nodeGlow)"><animate attributeName="r" values="6;10;6" dur="2.8s" repeatCount="indefinite" /></circle>
+    <circle cx="80" cy="70" r="2.5" fill="#00f2fe" />
+
+    <circle cx="220" cy="25" r="9" fill="url(#nodeGlow)"><animate attributeName="r" values="7;12;7" dur="2.5s" repeatCount="indefinite" /></circle>
+    <circle cx="220" cy="25" r="3" fill="#ffffff" />
+
+    <circle cx="220" cy="65" r="9" fill="url(#nodeGlow)"><animate attributeName="r" values="6;11;6" dur="2.1s" repeatCount="indefinite" /></circle>
+    <circle cx="220" cy="65" r="3" fill="#c77dff" />
+
+    <circle cx="380" cy="45" r="11" fill="url(#nodeGlow)"><animate attributeName="r" values="8;14;8" dur="2s" repeatCount="indefinite" /></circle>
+    <circle cx="380" cy="45" r="3.5" fill="#ffffff" />
+
+    <circle cx="500" cy="20" r="9" fill="url(#nodeGlow)"><animate attributeName="r" values="7;11;7" dur="2.6s" repeatCount="indefinite" /></circle>
+    <circle cx="500" cy="20" r="3" fill="#00f2fe" />
+
+    <circle cx="500" cy="70" r="9" fill="url(#nodeGlow)"><animate attributeName="r" values="7;11;7" dur="2.3s" repeatCount="indefinite" /></circle>
+    <circle cx="500" cy="70" r="3" fill="#c77dff" />
+
+    <circle cx="640" cy="45" r="11" fill="url(#nodeGlow)"><animate attributeName="r" values="8;14;8" dur="2.4s" repeatCount="indefinite" /></circle>
+    <circle cx="640" cy="45" r="3.5" fill="#ffffff" />
+
+    <circle cx="800" cy="25" r="9" fill="url(#nodeGlow)"><animate attributeName="r" values="6;11;6" dur="2.7s" repeatCount="indefinite" /></circle>
+    <circle cx="800" cy="25" r="3" fill="#00f2fe" />
+
+    <circle cx="800" cy="65" r="9" fill="url(#nodeGlow)"><animate attributeName="r" values="7;11;7" dur="2.2s" repeatCount="indefinite" /></circle>
+    <circle cx="800" cy="65" r="3" fill="#ffffff" />
+
+    <circle cx="920" cy="45" r="10" fill="url(#nodeGlow)"><animate attributeName="r" values="7;12;7" dur="1.9s" repeatCount="indefinite" /></circle>
+    <circle cx="920" cy="45" r="3.5" fill="#00f2fe" />
+  </g>
+</svg>

@@ -1,0 +1,60 @@
+<svg width="100%" height="180" viewBox="0 0 1400 180" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Animated neural network">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="0%" y2="100%">      <stop offset="0%" stop-color="#0a0e1a" />      <stop offset="50%" stop-color="#141e3c" />      <stop offset="100%" stop-color="#0d1117" />    </linearGradient>
+    <radialGradient id="glow" cx="50%" cy="50%" r="50%">      <stop offset="0%" stop-color="#00f2fe" stop-opacity="1" />      <stop offset="45%" stop-color="#4facfe" stop-opacity="0.45" />      <stop offset="100%" stop-color="#c77dff" stop-opacity="0" />    </radialGradient>
+    <radialGradient id="glowP" cx="50%" cy="50%" r="50%">      <stop offset="0%" stop-color="#c77dff" stop-opacity="1" />      <stop offset="50%" stop-color="#c77dff" stop-opacity="0.4" />      <stop offset="100%" stop-color="#c77dff" stop-opacity="0" />    </radialGradient>
+    <radialGradient id="vign" cx="50%" cy="50%" r="75%">      <stop offset="60%" stop-color="#0d1117" stop-opacity="0" />      <stop offset="100%" stop-color="#0a0e1a" stop-opacity="0.85" />    </radialGradient>
+  </defs>
+  <rect width="1400" height="180" fill="url(#bg)" />
+  <circle cx="350" cy="54" r="220" fill="#4facfe" opacity="0.05500000000000001"><animate attributeName="opacity" values="0.06;0.16;0.06" dur="7s" repeatCount="indefinite"/></circle>
+  <circle cx="1092" cy="125" r="260" fill="#c77dff" opacity="0.05500000000000001"><animate attributeName="opacity" values="0.05;0.14;0.05" dur="9s" repeatCount="indefinite"/></circle>
+  <g stroke="#4facfe" stroke-width="1" opacity="0.15">
+    <line x1="90" y1="57" x2="334" y2="106" />
+    <line x1="90" y1="134" x2="334" y2="106" />
+    <line x1="334" y1="106" x2="578" y2="75" />
+    <line x1="334" y1="106" x2="578" y2="121" />
+    <line x1="578" y1="75" x2="822" y2="86" />
+    <line x1="578" y1="121" x2="822" y2="86" />
+    <line x1="822" y1="86" x2="1066" y2="55" />
+    <line x1="822" y1="86" x2="1066" y2="115" />
+    <line x1="1066" y1="55" x2="1310" y2="97" />
+    <line x1="1066" y1="115" x2="1310" y2="97" />
+  </g>
+  <g stroke="#00f2fe" stroke-width="1.6" opacity="0.28">
+    <line x1="334" y1="106" x2="578" y2="121"><animate attributeName="opacity" values="0.15;0.8;0.15" dur="2.9s" repeatCount="indefinite"/></line>
+    <line x1="1066" y1="115" x2="1310" y2="97"><animate attributeName="opacity" values="0.15;0.8;0.15" dur="2.4s" repeatCount="indefinite"/></line>
+    <line x1="822" y1="86" x2="1066" y2="115"><animate attributeName="opacity" values="0.15;0.8;0.15" dur="3.2s" repeatCount="indefinite"/></line>
+    <line x1="334" y1="106" x2="578" y2="75"><animate attributeName="opacity" values="0.15;0.8;0.15" dur="2.7s" repeatCount="indefinite"/></line>
+    <line x1="578" y1="121" x2="822" y2="86"><animate attributeName="opacity" values="0.15;0.8;0.15" dur="3.6s" repeatCount="indefinite"/></line>
+    <line x1="90" y1="57" x2="334" y2="106"><animate attributeName="opacity" values="0.15;0.8;0.15" dur="3.4s" repeatCount="indefinite"/></line>
+    <line x1="578" y1="75" x2="822" y2="86"><animate attributeName="opacity" values="0.15;0.8;0.15" dur="2.7s" repeatCount="indefinite"/></line>
+    <line x1="90" y1="134" x2="334" y2="106"><animate attributeName="opacity" values="0.15;0.8;0.15" dur="3.9s" repeatCount="indefinite"/></line>
+  </g>
+  <circle r="3.5" fill="#00f2fe"><animateMotion dur="3.1s" repeatCount="indefinite" path="M90,57 L334,106 L578,75 L822,86 L1066,55 L1310,97" /></circle>
+  <circle r="6" fill="#00f2fe" opacity="0.25"><animateMotion dur="3.1s" begin="0.15s" repeatCount="indefinite" path="M90,57 L334,106 L578,75 L822,86 L1066,55 L1310,97" /></circle>
+  <circle r="3.5" fill="#c77dff"><animateMotion dur="3.2s" repeatCount="indefinite" path="M90,134 L334,106 L578,121 L822,86 L1066,115 L1310,97" /></circle>
+  <circle r="6" fill="#c77dff" opacity="0.25"><animateMotion dur="3.2s" begin="0.15s" repeatCount="indefinite" path="M90,134 L334,106 L578,121 L822,86 L1066,115 L1310,97" /></circle>
+  <circle r="3.5" fill="#00f2fe"><animateMotion dur="3.7s" repeatCount="indefinite" path="M90,57 L334,106 L578,75 L822,86 L1066,55 L1310,97" /></circle>
+  <circle r="6" fill="#00f2fe" opacity="0.25"><animateMotion dur="3.7s" begin="0.15s" repeatCount="indefinite" path="M90,57 L334,106 L578,75 L822,86 L1066,55 L1310,97" /></circle>
+  <g>
+    <circle cx="90" cy="57" r="9" fill="url(#glow)"><animate attributeName="r" values="7;13;7" dur="2.5s" repeatCount="indefinite" /></circle>
+    <circle cx="90" cy="57" r="2.6" fill="#ffffff" />
+    <circle cx="90" cy="134" r="11" fill="url(#glow)"><animate attributeName="r" values="9;14;9" dur="2.5s" repeatCount="indefinite" /></circle>
+    <circle cx="90" cy="134" r="2.6" fill="#ffffff" />
+    <circle cx="334" cy="106" r="9" fill="url(#glowP)"><animate attributeName="r" values="7;12;7" dur="3.0s" repeatCount="indefinite" /></circle>
+    <circle cx="334" cy="106" r="2.6" fill="#c77dff" />
+    <circle cx="578" cy="75" r="7" fill="url(#glow)"><animate attributeName="r" values="5;13;5" dur="2.9s" repeatCount="indefinite" /></circle>
+    <circle cx="578" cy="75" r="2.6" fill="#ffffff" />
+    <circle cx="578" cy="121" r="8" fill="url(#glow)"><animate attributeName="r" values="6;14;6" dur="3.0s" repeatCount="indefinite" /></circle>
+    <circle cx="578" cy="121" r="2.6" fill="#ffffff" />
+    <circle cx="822" cy="86" r="10" fill="url(#glowP)"><animate attributeName="r" values="8;15;8" dur="1.9s" repeatCount="indefinite" /></circle>
+    <circle cx="822" cy="86" r="2.6" fill="#c77dff" />
+    <circle cx="1066" cy="55" r="10" fill="url(#glow)"><animate attributeName="r" values="8;16;8" dur="2.4s" repeatCount="indefinite" /></circle>
+    <circle cx="1066" cy="55" r="2.6" fill="#ffffff" />
+    <circle cx="1066" cy="115" r="7" fill="url(#glow)"><animate attributeName="r" values="5;11;5" dur="2.0s" repeatCount="indefinite" /></circle>
+    <circle cx="1066" cy="115" r="2.6" fill="#ffffff" />
+    <circle cx="1310" cy="97" r="8" fill="url(#glowP)"><animate attributeName="r" values="6;11;6" dur="2.0s" repeatCount="indefinite" /></circle>
+    <circle cx="1310" cy="97" r="2.6" fill="#c77dff" />
+  </g>
+  <rect width="1400" height="180" fill="url(#vign)" />
+</svg>
