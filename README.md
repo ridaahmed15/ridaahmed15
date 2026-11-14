@@ -210,17 +210,19 @@ and scale.
   <tr>
     <td width="50%" align="center">
       <img src="https://img.shields.io/badge/LLM-RAG%20Pipeline-00f2fe?style=for-the-badge&logo=huggingface&logoColor=black" />
-      <h3><a href="https://github.com/YOUR_GITHUB_USERNAME/PROJECT_REPO_1">RAG-Eval-Toolkit</a></h3>
-      <p>Retrieval-augmented generation framework with a built-in eval harness
-      (faithfulness, groundedness, context recall) and a vector-DB swap layer
-      (FAISS / pgvector / Qdrant).</p>
+      <h3><a href="https://github.com/ridaahmed15/youtube-automation-ai-agent">Youtube Automation Agent</a></h3>
+      🚀 Automating the YouTube Content Pipeline with AI!
+
+ I worked on an AI-powered YouTube Automation Agent designed to streamline the entire workflow end-to-end. By integrating LLMs and automated API pipelines, this system handles repetitive tasks so creators can focus purely on creativity and strategy.
+
+</p>
       <p><img src="https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white" />
          <img src="https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white" />
          <img src="https://img.shields.io/badge/LangChain-1C3C3C?logoColor=white" /></p>
     </td>
     <td width="50%" align="center">
       <img src="https://img.shields.io/badge/CV-Vision%20Pipeline-4facfe?style=for-the-badge&logo=opencv&logoColor=black" />
-      <h3><a href="https://github.com/YOUR_GITHUB_USERNAME/PROJECT_REPO_2">Edge-Vision</a></h3>
+      <h3><a href="https://github.com/YOUR_GITHUB_USERNAME/PROJECT_REPO_2">Repo</a></h3>
       <p>Real-time object detection on edge devices — quantised YOLO export to
       ONNX/TensorRT, INT8 calibration, and a streaming inference server with
       sub-50ms latency.</p>
